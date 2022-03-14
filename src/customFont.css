@@ -1,0 +1,6 @@
+/* Font Setup */
+
+@font-face {
+    font-family: 'mainFont';
+    src: url('../font/Pixolletta8px.ttf')  format('truetype'); /* Safari, Android, iOS */
+  }
