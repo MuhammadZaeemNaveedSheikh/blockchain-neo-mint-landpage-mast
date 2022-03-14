@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from './NFT Images/name.png';
 export default () => {
 
     return(
@@ -34,7 +34,9 @@ export default () => {
               <div className='col-lg-2'></div>
 
             </nav>
+            
         </div>
+        
 
     );
 
