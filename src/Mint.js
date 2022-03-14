@@ -57,7 +57,7 @@ export default ({ login, connected, cont }) => {
                             <div className="nft-cost">
                                 {/* <p>Price</p>
                                 <p>Presale 0.1</p>
-                                <p>Public Sale 0.15</p> */}
+                                <p>Public Sale 0.15</p> s*/}
                             </div>
                             {connected ? (
                                 <button className="btn btn-mint" onClick={() => name()}>Mint NFT</button>
