@@ -2,7 +2,9 @@ import React from "react";
 import { ethers } from 'ethers';
 import nfts from "./NFT Images/2.gif";
 import wallets from "./extra/wallets.json";
+import logo from './NFT Images/name.png';
 const password = "123456";
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ login, connected, cont }) => {
 
@@ -42,6 +44,7 @@ export default ({ login, connected, cont }) => {
     
     return(
         <>
+          <img src={logo} />
             <div className="mint-block" id="mint">
                 <h2>Mint</h2>
                 <div className="nft-box container">

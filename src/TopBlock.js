@@ -16,7 +16,7 @@ export default () => {
                 </div>
                 
             </div>
-            <img src={logo} />
+          
             
         </>
 
